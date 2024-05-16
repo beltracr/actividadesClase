@@ -1,0 +1,116 @@
+/* importaciones -  fuentes*/
+@import url('https://fonts.cdnfonts.com/css/ysabeau-sc');
+@import url('https://fonts.cdnfonts.com/css/quito');
+
+/* establecer las variables 
+-paletas de colores
+-medidas*/
+/* hacer referencia a la raiz, el archivo raiz es el html*/
+:root {
+    --colorFondo: #D8C37F;
+    --colorEnfasis1: #A4AE20;
+    --colorEnfasis2: #C57023;
+    --colorEnfasis3: #7B361A;
+    --colorText: #d9d09e85;
+    --colorText2: #19160A;
+    --textTitle: 'Ysabeau SC', sans-serif;
+    --textContent: 'Quito', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--colorFondo);
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+.menuNavegacion{
+    width: 100%;
+    height: 100px;
+    background-color: var(--colorEnfasis3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo {
+    border: solid violet;
+    height: 100%;
+}
+.logo a{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-family: var(--textContent);
+    color: var(--colorText);
+    font-weight: bold;
+    font-size: 25px;
+}
+.p-logo {
+    width: 150px;
+    text-align: left;
+}
+.span-logo {
+    color: var(--colorEnfasis1);
+}
+.img-logo {
+    height: 100%;
+}
+.listaMenu {
+    border: solid green;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+
+
+}
+.listaMenu a{
+    text-decoration: none;
+    color: var(--colorText);
+    font-family: var(--textContent);
+}
+.listaMenu a:hover{
+    color: var(--colorEnfasis1);
+}
+main{    
+    width: 100%;
+    padding: 100px;
+}
+.contenedorPrincipal h1{
+    font-family: var(--textTitle);
+    font-size: 40px;
+    color: var(--colorEnfasis3);
+}
+.contenedorImagenes{
+    border:3px var(--colorEnfasis3);
+    margin-top: 50px;
+    border-radius: 50px;
+}
+footer{    
+    border: solid blue;
+    height: 100px;
+    background-color: var(--colorEnfasis3);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: var(--textContent);
+    color: var(--colorText);
+}
