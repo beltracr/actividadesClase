@@ -1,0 +1,35 @@
+3 pilares de aperienci
+ 1.POSITION:
+ 
+PERMITE CAMBIAR A NUESTRA NECESIDAD, ubicacion de mi elemento
+
+-position static: por defecto
+-position fixed: siempre se vera en la pantalla la fija, top,
+-position sticky
+
+
+
+
+
+
+ 2.FLEX BOX
+
+modelo de diseño en css organizar mis elementos como yo quiero.
+
+columna o fila
+flex-direction: row;
+flex-direction: column;
+
+el display debe estar en el contenedor display flex, y el resumen 
+flex: alineacion
+
+
+ 3.GRID -layout
+
+organizacion de elementos en cuadriculas.
+1. se debe estrocturar mi layout. 
+
+
+display:grid; 
+
+grid-template-row:repeat(2.1fr); grid-template-column: repeat(3,1fr)
