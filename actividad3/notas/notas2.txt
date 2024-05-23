@@ -1,0 +1,7 @@
+diseño responsive
+
+mis elementos se pueden visualizar correctamente desde cualquier pantalla
+basicamente hay un diseño o acomodacion del diseño diferente.
+
+Diseño adaptativo
+se diseña igual para todas las pantallas

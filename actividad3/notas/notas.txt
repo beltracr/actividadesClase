@@ -1,0 +1,15 @@
+transformaciones, animaciones y keyframes en css
+
+transform, animation y keyframes.
+
+transformacion:
+CAMBIO en mi elemento, como por ejemplo:
+<transition>
+
+animaciones:
+
+se transforma en repetidas ocaciones, necesitamos especificar como quieres que se den esas tranformaciones
+<animation>
+
+@keyframes permite especificar como sera la transicion
+
