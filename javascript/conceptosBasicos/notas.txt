@@ -1,0 +1,32 @@
+javascript:
+lenguaje de programacion
+
+Cliente-servidor: javascript se ejecuta tanto en el cliente ( navegadorweb) como en el servidor,estto permite una programacion tanto del lado del cliente como del servidor
+
+dinamismo: javascript permite la manipulacion dinamica de contenido y estilo en paginas web, lo que permite crear experiencias interactivas para el usuario
+
+Asincrono: gracias a su naturaleza asincrona y al uso de promesas y callbacks, javascript puede manjar operaciones no bloqueantes, como solicitudes de red, de manera eficiente
+
+amplia comunidad: javascript tiene una gran comunidad de desarrolladores y una amplia variedad de bibliotecas y frameworks que falicitan el desarrollo web
+
+interoperabilidad: javascript se puede integrar facilmente con html y css, lo que lo convierte en una parte integral del desarrollo web moderno.
+
+Donde se utiliza?
+
+Javascript se utiliza en una variedad de contextos, incluyendo:
+
+desarrollo web frontend: para crear interacciones dinamicas en paginas web
+desarrollo web 
+
+desarrollo web backend: con nodejs, para construir servidores y aplicaciones
+desarrollo de aplicaciones oviles: a traves de framworks como react native o ionic
+Desarrollo de juegos: utilizando bilitecas como phaser o fragmentos como threejs
+desarrollo de aplicaciones de escritorio: a traves de frameworks
+
+
+
+tip:
+
+lenguajes tipados
+mediana mente tipado
+bajamente tipados.
