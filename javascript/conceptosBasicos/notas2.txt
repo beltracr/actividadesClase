@@ -1,0 +1,32 @@
+logica de programacion
+
+la logiaca en programacion es aquellos que implia el razonamiento y la capacidad de desglosar un problema en pasos logicos y secuenciales.
+
+algoritmos
+
+un algoritmo es una serie de pasos logicos secuanciales y finitos para resolver un problema
+entrada: datos necesarios para procesar
+proceso: son los pasos necesarios.
+
+el runtime es el traductor, node.js
+
+Estructura
+Un espacio de memoria  del computador permite almacenar informacion, las variables pueden cambiar de un momento a otro su valor durante el proceso de ejecucion.
+
+Declaracion
+se nombra pero no se asigna la informacion
+
+
+tipos de variables
+string: esto es una secuencia de texto conocidacomo cadena entre comillas
+number: numeros
+boolean: true false
+array: una estructura 
+
+
+operadores
+relaciones entre variables y constantes
+
+pront: es una funcion solo recibe en alfabetico
+proseint: lo transforma en numero
+

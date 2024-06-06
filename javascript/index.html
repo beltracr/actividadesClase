@@ -1,26 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./conceptosBasicos/script/conceptosBasicos.js" defer></script>
-    <title>Fundamentos basicos de js</title>
+    <!-- scripts de js - funcionalidad que no ve (Luisa recomienda) -->
+    <!-- acà se ejecuta de forma asincrònica, primero me carga todo
+    lo demàs, y de ùltimas el js -->
+    <script src="./scripts/conceptosBasicos.js" defer></script> 
+    <title>Fundamentos bàsicos de js</title>
 </head>
+<!-- 
+    NO SE RECOMIENDA
+    <script>
+        let numero = 5;
+    </script> 
+-->
 <body>
- 
-    <!-- como vincular a js con html-->
+    
 
-    <!--
+    <h1>
+        PRÀCTICA DE JAVASCRIPT
+    </h1>
 
-        3 formas de usar  js en html
-        1. llamar el script antes del cierre de body
+    <!-- Còmo vinvular a js con html -->
+    <!-- 
 
+        3 formas de usar js en HTML
+        1. LLamar el script antes del cierre de body
+        2. Llamar el script en el head, AGREGANDO la palabra 'defer' 
+        o 'async' (yo la recomiendo)
+        3. JS embevido -> utilizar la etiqueta script para 
+        poner còdigo de js en el archivo HTML (no es una buena pràctiva)
+     -->
 
-    --> 
-    <!-- aca se ejecuta de forma asincronia, se ejecuta todo primero y de ultimas el js defer asincronico-->
-
-<h1> hola</h1>
-
- <script src="./conceptosBasicos/script/index.js"></script>
+     <!-- primera forma -->
+     <script src="./scripts/index.js"></script>
 </body>
 </html>
